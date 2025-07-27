@@ -73,6 +73,7 @@ We use multiple languages intentionally, chosen for their strengths on each laye
 ---
 
 ## System components (typical deployment)
+[Find Tech Stack PDF](https://github.com/numtrade/numtrade/blob/main/trading.pdf)
 
 | Layer               | Responsibilities                                                            | Illustrative technologies                                                                 |
 |---------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
@@ -86,6 +87,8 @@ We use multiple languages intentionally, chosen for their strengths on each laye
 | **Observability**   | Metrics, traces, logs, anomaly detection                                    | Prometheus, OpenTelemetry, Loki                                                           |
 | **CI/CD & Ops**     | Build, sign, deploy, config promotion, secrets                              | GitHub Actions, Terraform, rsync, KMS                                                     |
 | **Frontends**       | Client UIs, consoles, dashboards                                            | **React/TypeScript**, Tailwind, CSR/SSR where appropriate                                 |
+| **Web Apps / Portals** |  Informational pages, ToS, admin tools, light dynamic content            |PHP, Django, simple SSR sites                                                              |
+
 
 *Technologies are indicative; exact stacks vary per product and regulatory context.*
 
