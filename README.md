@@ -73,7 +73,7 @@ We use multiple languages intentionally, chosen for their strengths on each laye
 ---
 
 ## System components (typical deployment)
-[Find Tech Stack PDF](https://github.com/numtrade/numtrade/blob/main/trading.pdf)
+[Find Tech Stack PDF](https://numtrade.in/public/trading.pdf)
 
 | Layer               | Responsibilities                                                            | Illustrative technologies                                                                 |
 |---------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
